@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Safal Godar about software engineering, web development, and ideas.">
+    <title>Safal Godar | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html">Safal <span>Godar</span></a>
+        <nav class="site-nav" aria-label="Primary navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="site-main">
+        <section class="page-intro" aria-labelledby="contact-title">
+            <p class="eyebrow">Let us connect</p>
+            <h1 id="contact-title">Have an idea worth exploring?</h1>
+            <p class="lede">Send a message about a project, a learning opportunity, or a question about my work. I would love to hear what you are building.</p>
+        </section>
+
+        <section class="grid-2" aria-label="Contact form and location">
+            <article class="panel">
+                <h2>Send a message</h2>
+                <form action="#" method="post">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </div>
+                    <div>
+                        <label for="department">What are you interested in?</label>
+                        <select id="department" name="department" required>
+                            <option value="">Choose one</option>
+                            <option value="collaboration">Project collaboration</option>
+                            <option value="web-development">Web development</option>
+                            <option value="learning">Learning and mentorship</option>
+                        </select>
+                    </div>
+                    <fieldset>
+                        <legend class="eyebrow">Preferred contact</legend>
+                        <div class="choice-row">
+                            <label for="email-contact"><input type="radio" id="email-contact" name="contact-method" value="email" required> Email</label>
+                            <label for="call-contact"><input type="radio" id="call-contact" name="contact-method" value="call"> Call</label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="eyebrow">Topics</legend>
+                        <div class="choice-row">
+                            <label for="coding"><input type="checkbox" id="coding" name="topics" value="coding"> Coding</label>
+                            <label for="design"><input type="checkbox" id="design" name="topics" value="design"> Design</label>
+                            <label for="projects"><input type="checkbox" id="projects" name="topics" value="projects"> Projects</label>
+                        </div>
+                    </fieldset>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me a little about your idea..."></textarea>
+                    </div>
+                    <button type="submit">Send message</button>
+                </form>
+            </article>
+
+            <aside class="panel">
+                <p class="eyebrow">Find the learning community</p>
+                <h2>PCPS College</h2>
+                <p>My studies are rooted in a community of curious people in Kupondole, Lalitpur.</p>
+                <iframe class="media-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.1234567890123!2d85.32456789012345!3d27.67890123456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb190123456789%3A0xabcdef1234567890!2sPCPS%20College%2C%20Kupondole%2C%20Lalitpur%20144600%2C%20Nepal!5e0!3m2!1sen!2sus!4v1612345678901" title="Map showing PCPS College, Kupondole" loading="lazy" allowfullscreen></iframe>
+            </aside>
+        </section>
+
+        <section class="band" aria-labelledby="links-title">
+            <p class="eyebrow">Elsewhere online</p>
+            <h2 id="links-title">Keep exploring</h2>
+            <p>Visit my favourite learning links: <a href="https://www.w3schools.com/" target="_blank" rel="noopener">W3Schools</a>, <a href="https://developer.mozilla.org/" target="_blank" rel="noopener">MDN Web Docs</a>, and <a href="https://www.wikipedia.org/" target="_blank" rel="noopener">Wikipedia</a>.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Safal Godar</p>
+        <p><a href="index.html">Back to home</a></p>
+    </footer>
+</body>
+</html>
